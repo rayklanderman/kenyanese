@@ -23,16 +23,6 @@ Kenyanese is more than a platform — it’s a movement to empower developers to
 ---
 
 _Ready to join? Sign up, set up your profile, and start sharing your journey!_
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
     // Alternatively, use this for stricter rules
     ...tseslint.configs.strictTypeChecked,
     // Optionally, add this for stylistic rules
